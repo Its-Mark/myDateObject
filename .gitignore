@@ -1,0 +1,12 @@
+
+.vs/myDateObject/v16/.suo
+.vs/ProjectSettings.json
+*.sqlite
+*.json
+*.db
+*.opendb
+*.ipch
+*.sln
+*.vcxproj
+*.filters
+*.user
