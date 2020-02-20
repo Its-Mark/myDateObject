@@ -1,0 +1,4 @@
+﻿  Tester.cpp
+C:\Users\milk8\Desktop\CECS 282\Projects\myDateObject\myDateObject\Tester.cpp(8,36): error C3867: 'myDate::getMonth': non-standard syntax; use '&' to create a pointer to member
+C:\Users\milk8\Desktop\CECS 282\Projects\myDateObject\myDateObject\Tester.cpp(8,49): error C3867: 'myDate::getDay': non-standard syntax; use '&' to create a pointer to member
+C:\Users\milk8\Desktop\CECS 282\Projects\myDateObject\myDateObject\Tester.cpp(8,63): error C3867: 'myDate::getYear': non-standard syntax; use '&' to create a pointer to member

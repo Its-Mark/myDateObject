@@ -1,6 +1,9 @@
 #include <string>
 #ifndef MYDATE_H
 #define MYDATE_H
+int Greg2Julian(int m, int d, int y);
+void Julian2Greg(int jd, int &month, int &day, int &year);
+
 class myDate{
 private:
 	int month;
