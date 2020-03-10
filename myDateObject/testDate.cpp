@@ -11,7 +11,8 @@
 #include <cstdio>
 using namespace std;
 
-int main(){
+int main()
+{
 	myDate Bday;
 	myDate duedate(3, 4, 2020);
 
@@ -78,10 +79,10 @@ int main(){
 	{
 
 		myDate leapYear = myDate(12, 31, y);
-		leapYear.display();
-		cout << ": ";
-		leapYear.dayOfYear();
-		cout << endl;
+		//leapYear.display();
+		//cout << ": ";
+		//leapYear.dayOfYear();
+		//cout << endl;
 		if (leapYear.dayOfYear() == 366)
 		{
 			cout << y << ", ";

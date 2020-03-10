@@ -1,3 +1,7 @@
+//Mark Garcia
+//Class (CECS 282-07)
+//Prog 2 myDate Object
+//Due: March 4, 2020
 #include "myDate.h"
 #include <iostream>
 using namespace std;
@@ -153,7 +157,7 @@ int myDate::dayOfYear(){
 	int day1 = Greg2Julian(1, 1, year);
 	int jd = Greg2Julian(month, day, year);
 
-	return jd - day1;
+	return jd - day1 + 1;
 }
 
 std::string myDate::dayName(){
